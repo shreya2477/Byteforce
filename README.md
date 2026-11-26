@@ -18,7 +18,8 @@ venv\Scripts\activate          # Mac/Linux: source venv/bin/activate
 pip install -r requirements.txt
 uvicorn app.main:app --reload --port 8000
 
- If using VS code, run this 
+ If using VS code, run this
+ 
  cd backend
 py -m pip install -r requirements.txt
 py -m uvicorn app.main:app --reload
